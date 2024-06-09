@@ -14,7 +14,7 @@ def get_company_data(ticker_symbol):
     }
 
 def get_overview(ticker_symbol):
-        api_key  = 'XPEPKZVN6F6YOMSP'
+        api_key  = 'YOUR_KEY'
         base_url = 'https://www.alphavantage.co/query'
         function = 'OVERVIEW'
         url = f"{base_url}?function={function}&symbol={ticker_symbol}&apikey={api_key}"
@@ -26,7 +26,7 @@ def get_overview(ticker_symbol):
         return df_transposed
     
 def findanomaly(ticker_symbol):    
-        api_key  = 'XPEPKZVN6F6YOMSP'
+        api_key  = 'YOUR_KEY'
         base_url = 'https://www.alphavantage.co/query'
         function = 'TIME_SERIES_DAILY'
         url = f"{base_url}?function={function}&symbol={ticker_symbol}&apikey={api_key}" 
@@ -52,38 +52,10 @@ def findanomaly(ticker_symbol):
         print("\n")
         return anomalies
 
-    #url = get_ticker(ticker_symbol)
-    #print("URL:", url)  # Print the URL being used
-    # r = requests.get(url)
-    #print("Response status code:", r.status_code)  # Print the status code of the response
-    #data = r.json()
-    #print("Data:", data)  # Print the data received from the API
-
-    # def detectanomaly():
-    #     time_series_data = data['Time Series (Daily)']
-    #     df = pd.DataFrame(time_series_data).T
-    #     #print("Original DataFrame:")
-    #     #print(df)
-        
-    #     df.index = pd.to_datetime(df.index)
-    #     df = df.apply(pd.to_numeric)
-    #     df['price_change'] = df['4. close']-df['1. open']
-    #     average_volume = df['5. volume'].mean()
-    #     df['volume_surge'] = df['5. volume'] > 1.5 * average_volume
-    #     df['price_gap'] = df['1. open'] > df['4. close'].shift(1) * 1.02 #each closing value is now aligned with the opening price of the next day
-    #     #1.02 represents a 2% increase over the closing price of the previous day.
-    #     #print("DataFrame with calculated columns:")
-    #     #print(df)
-        
-    #     anomalies = df[(df['price_change'].abs() > 2) | df['volume_surge'] | df['price_gap']]
-    #     print("Anomalies detected:")
-    #     #print(anomalies)
-        
-    #     return anomalies
 
 def generate_income_statement(ticker_symbol):
     #print("\nIncome Statement:")
-    api_key = 'XPEPKZVN6F6YOMSP'  # Replace 'demo' with your actual API key
+    api_key = 'YOUR_KEY'  # Replace 'demo' with your actual API key
     base_url = 'https://www.alphavantage.co/query'
     function = 'CASH_FLOW'
     url = f"{base_url}?function={function}&symbol={ticker_symbol}&apikey={api_key}"
