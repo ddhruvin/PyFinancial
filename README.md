@@ -29,3 +29,6 @@ stock-
   c1. python
   c2. from stock_data import get_company_data
   c3. get_company_data('AAPL') #You can choose any ticker symbol here, just google the ticker symbols for NASDAQ traded stocks
+
+# 4. IMPORTANT NOTE
+Alphavantage has a limit of 25 requests in a day. in the company.py there are 3 requests going to fetch the data, so you can use only /*8 times a day*/ or modify the code to use it more number of times
