@@ -13,6 +13,19 @@ function was developed to construct the API query and retrieve the data. This fu
 handling to manage API request failures.
 
 # To reproduce the output, follow the following steps:
-1.
-2.
-3.
+1. directory-structure:
+stock-
+ setup.py
+ stock_data-
+  company.py
+  __init__.py
+
+2. replace YOUR_KEY in company.py with your own api_key which can be obtained from its website (https://www.alphavantage.co/support/#api-key)
+
+3.after replacement, run these commands in terminal
+ a. python setup.py sdist bdist_wheel
+ b. pip install path-to-.whl-file
+ c. open powershell and type these commands
+  c1. python
+  c2. from stock_data import get_company_data
+  c3. get_company_data('AAPL') #You can choose any ticker symbol here, just google the ticker symbols for NASDAQ traded stocks
