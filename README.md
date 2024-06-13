@@ -35,3 +35,10 @@ build files will be generated later on:
 
 # 4. IMPORTANT NOTE
 Alphavantage has a limit of 25 requests in a day. in the company.py there are 3 requests going to fetch the data, so you can use only /*8 times a day*/ or modify the code to use it more number of times
+
+# Output
+![image](https://github.com/ddhruvin/Stock-data-finding-Python-Package-/assets/120237476/27a1c0a5-6579-4aa7-a815-2eff3eeac590)
+
+
+<img width="875" alt="image" src="https://github.com/ddhruvin/Stock-data-finding-Python-Package-/assets/120237476/ab49b5a9-5409-48e5-a418-8612f31d5b39">
+
