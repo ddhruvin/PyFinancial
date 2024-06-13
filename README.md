@@ -26,19 +26,20 @@ build files will be generated later on:
 2. replace YOUR_KEY in company.py with your own api_key which can be obtained from its website (https://www.alphavantage.co/support/#api-key)
 
 3.after replacement, run these commands in terminal
- a. python setup.py sdist bdist_wheel
- b. pip install path-to-.whl-file
- c. open powershell and type these commands
-  c1. python
-  c2. from stock_data import get_company_data
-  c3. get_company_data('AAPL') #You can choose any ticker symbol here, just google the ticker symbols for NASDAQ traded stocks
+ a. python setup.py sdist bdist_wheel<br />
+ b. pip install path-to-.whl-file<br />
+ c. open powershell and type these commands<br />
+  c1. python<br />
+  c2. from stock_data import get_company_data<br />
+  c3. get_company_data('AAPL') <br />
+#You can choose any ticker symbol here, just google the ticker symbols for NASDAQ traded stocks<br />
 
 # 4. IMPORTANT NOTE
-Alphavantage has a limit of 25 requests in a day. in the company.py there are 3 requests going to fetch the data, so you can use only /*8 times a day*/ or modify the code to use it more number of times
+Alphavantage has a limit of 25 requests in a day. in the company.py there are 3 requests going to fetch the data, so you can use only /*8 times a day*/ or modify the code to use it more number of times<br />
 
 # Output
 ![image](https://github.com/ddhruvin/Stock-data-finding-Python-Package-/assets/120237476/27a1c0a5-6579-4aa7-a815-2eff3eeac590)
-
+<br />
 
 <img width="875" alt="image" src="https://github.com/ddhruvin/Stock-data-finding-Python-Package-/assets/120237476/ab49b5a9-5409-48e5-a418-8612f31d5b39">
 
