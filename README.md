@@ -1,4 +1,4 @@
-# Stock-data-finding-Python-Package-
+# Stock-data-Python-Package-
 Data Retrieval upon a method passing. Thats what packages are about. Also it fosters Code-Reproducability
 
 # 1. Introduction: 
