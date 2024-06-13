@@ -1,5 +1,5 @@
 # Stock-data-Python-Package-
-Data Retrieval upon a method passing. Thats what packages are about. Also it fosters Code-Reproducability
+Data Retrieval upon a method passing. Thats what packages are about. Also it fosters <b>Code-Reproducability</b>
 
 # 1. Introduction: 
 In this project, we aimed to analyze financial time series data for detecting anomalies using Python. We utilized 
