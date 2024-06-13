@@ -1,6 +1,5 @@
 # Stock-data-Python-Package-
-Data Retrieval upon a method passing. Thats what packages are about. Also it fosters <b>Code-Reproducability</b>
-
+Data Retrieval upon a method passing. Thats what packages are about. Also it fosters <b><u>Code-Reproducibility</u></b>
 # 1. Introduction: 
 In this project, we aimed to analyze financial time series data for detecting anomalies using Python. We utilized 
 historical daily stock data from Alpha Vantage API and implemented anomaly detection techniques to identify 
