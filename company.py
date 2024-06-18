@@ -1,5 +1,6 @@
 import pandas as pd
 import requests    
+from functools import cache
 #ticker_symbol = 'AMZN'
 
 def get_company_data(ticker_symbol):
@@ -12,7 +13,8 @@ def get_company_data(ticker_symbol):
         'OHLCV + Anomalies detected:': anomalies,
         'Income Statement':  income_statement
     }
-
+    
+@cache
 def get_overview(ticker_symbol):
         api_key  = 'YOUR_KEY'
         base_url = 'https://www.alphavantage.co/query'
@@ -25,6 +27,7 @@ def get_overview(ticker_symbol):
         print("\n")
         return df_transposed
     
+@cache    
 def findanomaly(ticker_symbol):    
         api_key  = 'YOUR_KEY'
         base_url = 'https://www.alphavantage.co/query'
@@ -52,7 +55,7 @@ def findanomaly(ticker_symbol):
         print("\n")
         return anomalies
 
-
+@cache
 def generate_income_statement(ticker_symbol):
     #print("\nIncome Statement:")
     api_key = 'YOUR_KEY'  # Replace 'demo' with your actual API key
