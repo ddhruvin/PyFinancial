@@ -42,3 +42,9 @@ Alphavantage has a limit of 25 requests in a day. in the company.py there are 3 
 
 <img width="875" alt="image" src="https://github.com/ddhruvin/Stock-data-finding-Python-Package-/assets/120237476/ab49b5a9-5409-48e5-a418-8612f31d5b39">
 
+# REDIS CACHING
+Due to the limit of ALphaVantage, I have cached the frequently accessed data using Redis.
+type
+<br>pip install redis</br>
+to use the python methods <b>(set and get)</b> to access the Redis Client. 
+
