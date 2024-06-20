@@ -29,8 +29,8 @@ build files will be generated later on:
  b. pip install path-to-.whl-file<br />
  c. open powershell and type these commands<br />
   c1. python<br />
-  c2. from stock_data import get_company_data<br />
-  c3. get_company_data('AAPL') <br />
+  c2. from pyfinancial import cdata<br />
+  c3. cdata('AAPL') <br />
 #You can choose any ticker symbol here, just google the ticker symbols for NASDAQ traded stocks<br />
 
 # 4. IMPORTANT NOTE
