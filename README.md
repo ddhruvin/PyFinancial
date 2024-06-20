@@ -14,10 +14,10 @@ handling to manage API request failures.
 # 3. To reproduce the output, follow the following steps:
 1. directory-structure:
 stock-<br />
- setup.py<br />
- stock_data-<br />
-  company.py<br />
-  __init__.py
+  setup.py<br />
+  pyfinancial-<br />
+    company.py<br />
+    __init__.py
 build files will be generated later on:
 ![image](https://github.com/ddhruvin/Stock-data-finding-Python-Package-/assets/120237476/31f212d6-f9a3-4e9f-bea1-8ce98c4fa945)
 
