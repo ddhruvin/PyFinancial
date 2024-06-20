@@ -19,7 +19,7 @@ stock-<br />
     company.py<br />
     __init__.py
 build files will be generated later on:
-![image](https://github.com/ddhruvin/Stock-data-finding-Python-Package-/assets/120237476/31f212d6-f9a3-4e9f-bea1-8ce98c4fa945)
+![image](https://github.com/ddhruvin/Stock-data-finding-Python-Package-/assets/120237476/3fd76e8d-7af6-45a3-8f1d-4b3370af36cc)
 
 
 2. replace YOUR_KEY in company.py with your own api_key which can be obtained from its website (https://www.alphavantage.co/support/#api-key)
