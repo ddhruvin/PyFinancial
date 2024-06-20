@@ -3,7 +3,7 @@ import requests
 from functools import cache
 #ticker_symbol = 'AMZN'
 
-def get_company_data(ticker_symbol):
+def cdata(ticker_symbol):
     overview = get_overview(ticker_symbol)
     anomalies = findanomaly(ticker_symbol)
     income_statement = generate_income_statement(ticker_symbol)
