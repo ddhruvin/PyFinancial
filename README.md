@@ -37,10 +37,12 @@ build files will be generated later on:
 Alphavantage has a limit of 25 requests in a day. in the company.py there are 3 requests going to fetch the data, so you can use only /*8 times a day*/ or modify the code to use it more number of times<br />
 
 # 5. Output
-![image](https://github.com/ddhruvin/Stock-data-finding-Python-Package-/assets/120237476/27a1c0a5-6579-4aa7-a815-2eff3eeac590)
+![image](https://github.com/ddhruvin/PyFinancial/assets/120237476/af79d23f-6452-47d8-aae0-d7869876bfe1)
+
 <br />
 
-<img width="875" alt="image" src="https://github.com/ddhruvin/Stock-data-finding-Python-Package-/assets/120237476/ab49b5a9-5409-48e5-a418-8612f31d5b39">
+![image](https://github.com/ddhruvin/PyFinancial/assets/120237476/bb92eb92-a91d-42c5-b555-f7c5b2ab94df)
+
 
 # 6. CACHING
 Due to the limit of ALphaVantage, I have cached the frequently accessed data using cache module from fuunctools.
